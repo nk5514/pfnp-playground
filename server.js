@@ -18,4 +18,4 @@ app.get('/you', function (req, res) {
   res.send('You are the Man')
 })
 
-app.listen(3000)
+app.listen(process.env.PORT || 3000)
